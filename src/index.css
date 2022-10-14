@@ -1,13 +1,154 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --bg: #436337;
+  --header: #fff;
+  --link: #61fbbb;
+  --text: hsla(0, 0%, 100%, 0.829);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Merriweather", "Georgia", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
+  color: var(--text);
 }
+
+h1,
+h3 {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 1rem;
+  max-width: 800px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+
+form {
+  padding-top: 0.5rem;
+}
+
+form > * {
+  margin: 0.5rem;
+}
+
+.bookContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem, 0.5rem;
+  grid-auto-flow: row;
+
+  border: 1px solid white;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.book {
+  /* can get granular to have pic /title author as one box then the rest as another etc */
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-items: space-between;
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+  border: 1px solid white;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.bookInfo {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-items: space-evenly;
+}
+
+.ratings {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.signupForm {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.Header-links {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.app-container{
+  margin-top: 15px;
+}
+.app-container .header-links{
+ display: flex;
+ 
+}
+.app-container .header-links li{
+  margin: 10px;
+}
+.app-container .logout-btn{
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* .login{
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.loginWrapper{
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+.loginLeft,.loginRight{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+} */
