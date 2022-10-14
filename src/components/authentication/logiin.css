@@ -48,7 +48,16 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    width: 20%;
 
+}
+.newUser{
+/* font-size: larger; */
+text-align: center;
+}
+.contentAlign{
+
+    text-align: center;
 }
 /* #1775ee; */
 /* #1775ee; */

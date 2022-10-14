@@ -36,14 +36,14 @@ const Login = () => {
                 type="password"
                 required
                 /> <br />
-                <button type="submit">Login</button>
+                <button className="loginRegisterButton" type="submit">Login</button>
                 { errors?.length > 0 ? <div>{errors}</div>: null}
             </form>
             
             <br/>
             <p>Not a member yet? </p>
             <Link to="/signup">
-                <button >Click here to sign up</button>
+                <button className="loginButtton" >Click here to sign up</button>
             </Link>
             </div>
             </div>

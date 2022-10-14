@@ -1,5 +1,5 @@
 :root {
-  --bg: #436337;
+  --bg: #1775ee;
   --header: #fff;
   --link: #61fbbb;
   --text: hsla(0, 0%, 100%, 0.829);
@@ -94,9 +94,10 @@ li {
 }
 
 .signupForm {
-  display: flex;
+  /* display: flex;
   flex-flow: column;
-  align-items: center;
+  align-items: center; */
+  margin-left: 20px;
 }
 
 .App-header {
@@ -152,3 +153,4 @@ li {
   justify-content: center;
 
 } */
+
