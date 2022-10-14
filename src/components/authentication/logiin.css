@@ -25,3 +25,31 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.loginRegisterButton{
+    margin-top: 25px;
+    width: 30%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  
+  }
+  .loginButtton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+/* #1775ee; */
+/* #1775ee; */
+/* #42b72a; */
