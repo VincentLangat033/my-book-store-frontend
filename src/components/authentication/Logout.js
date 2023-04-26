@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { /*logoutUser,*/ logoutCurrentUserAsync } from "./loginSlice";
 
 const Logout = () => {
+    
     // const currentUser = useSelector(state => state.login.currentUser)
     const status = useSelector(state => state.login.status)
 
